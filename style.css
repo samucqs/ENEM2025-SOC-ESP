@@ -1,0 +1,532 @@
+/* style.css - Design Azul Aconchegante, Amigável e Inovador */
+
+/* Variáveis CSS para Cores e Propriedades */
+:root {
+    /* Tons de Azul Aconchegante */
+    --bg-color: #E6F0F8; /* Azul muito claro, quase branco, como fundo principal */
+    --card-bg: #FFFFFF;    /* Cartões e seções principais permanecem brancos para contraste */
+    --text-primary: #333333; /* Texto principal */
+    --text-secondary: #5C6B73; /* Texto secundário e rótulos (cinza azulado) */
+    --border-light: #C2D4E3; /* Bordas e linhas claras (azul acinzentado) */
+
+    /* Azul de Destaque para Inovação e Ação */
+    --accent-color: #007BFF; /* Azul mais vibrante, mas não agressivo, para ação/destaque */
+    --accent-color-hover: #0056B3; /* Azul mais escuro no hover */
+    --accent-bg-light: #D9EEFF; /* Fundo azul muito claro para seleção/hover */
+
+    /* Verde de Sucesso (Acolhedor) */
+    --success-color: #28A745; /* Verde clássico e reconhecido para sucesso */
+    --success-bg-light: #D4EDDA; /* Fundo verde claro */
+
+    /* Vermelho de Erro */
+    --error-color: #DC3545; /* Vermelho padrão para erro */
+    --error-bg-light: #F8D7DA; /* Fundo vermelho muito claro */
+
+    /* Sombras e Bordas */
+    --shadow-soft: rgba(0, 0, 0, 0.05); /* Sombra bem leve e difusa */
+    --shadow-medium: rgba(0, 0, 0, 0.1); /* Sombra um pouco mais visível */
+
+    --border-radius-lg: 16px; /* Cantos grandes e arredondados */
+    --border-radius-md: 10px; /* Cantos médios */
+    --border-radius-sm: 6px; /* Cantos pequenos */
+}
+
+/* Base e Tipografia */
+body {
+    font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color); /* Fundo azul aconchegante aqui */
+    color: var(--text-primary);
+    line-height: 1.7;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--card-bg); /* Cabeçalho branco para contraste */
+    color: var(--accent-color);
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px var(--shadow-soft);
+    border-bottom: 1px solid var(--border-light);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+main {
+    flex-grow: 1;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: var(--card-bg); /* Main permanece branco */
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 15px 40px var(--shadow-medium);
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: var(--accent-color);
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+h3 {
+    color: var(--text-primary);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+}
+
+/* Seções Escondidas */
+.hidden {
+    display: none !important;
+}
+
+/* Seção de Seleção (Início do Quiz) */
+#question-selection {
+    padding: 0;
+}
+
+.user-info, .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.input-group, .select-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 500px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 1.15rem;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px solid var(--border-light);
+    border-radius: var(--border-radius-md);
+    font-size: 1.15rem;
+    background-color: var(--bg-color); /* Fundo dos inputs com o azul aconchegante */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.3);
+    background-color: var(--card-bg); /* Volta a ser branco no foco */
+    outline: none;
+}
+
+/* Botões */
+button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: var(--border-radius-md);
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px var(--shadow-soft);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: var(--accent-color-hover);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px var(--shadow-medium);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px var(--shadow-soft);
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+    opacity: 0.6;
+}
+
+/* Seção do Quiz (Questões) */
+#quiz-section {
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#current-materia {
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#question-counter {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 35px;
+}
+
+/* MODIFICAÇÕES APLICADAS AQUI */
+.question-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-light);
+    border-radius: var(--border-radius-lg); /* Cantos mais arredondados */
+    padding: 45px 40px; /* Aumentado o padding */
+    margin-bottom: 40px;
+    box-shadow: 0 10px 30px var(--shadow-medium); /* Sombra mais visível, mas elegante */
+    position: relative;
+    min-height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona transição para hover */
+}
+
+.question-card:hover {
+    transform: translateY(-5px); /* Efeito sutil de "levantar" no hover */
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15); /* Sombra um pouco mais intensa no hover */
+}
+
+.question-text {
+    font-size: 1.65rem; /* Um pouco maior para destaque */
+    font-weight: 700; /* Mais negrito para clareza */
+    color: var(--text-primary);
+    margin-bottom: 40px; /* Mais espaço abaixo da pergunta */
+    text-align: center; /* Centraliza a pergunta para um visual mais limpo */
+    line-height: 1.5; /* Melhor espaçamento entre linhas para legibilidade */
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px; /* Pequeno padding horizontal */
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.alternatives {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Aumentado o espaçamento entre as alternativas */
+    margin-top: 0;
+}
+
+.alternatives .alternative-item {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-light);
+    border-radius: var(--border-radius-md); /* Cantos médios arredondados */
+    padding: 22px 30px; /* Mais padding para maior área de clique */
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    font-size: 1.25rem; /* Um pouco maior para legibilidade */
+    line-height: 1.5; /* Melhor espaçamento entre linhas */
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Sombra sutil para profundidade */
+    min-height: 50px; /* Aumentado para melhor área de toque/clique */
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.alternatives .alternative-item:hover {
+    background-color: var(--accent-bg-light);
+    border-color: var(--accent-color);
+    transform: translateY(-4px); /* Efeito sutil de "levantar" no hover */
+    box-shadow: 0 8px 20px var(--shadow-medium); /* Sombra mais evidente no hover */
+}
+
+.alternatives .alternative-item.selected {
+    background-color: var(--accent-bg-light);
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 5px rgba(0, 123, 255, 0.5); /* Anel de foco/seleção mais proeminente */
+    font-weight: 700;
+    transform: scale(1.01);
+}
+
+.alternatives .alternative-item.correct {
+    background-color: var(--success-bg-light);
+    border-color: var(--success-color);
+    color: var(--success-color);
+    font-weight: bold;
+    font-size: 1.35rem; /* Um pouco maior para enfatizar */
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(40, 167, 69, 0.6);
+    pointer-events: none;
+}
+
+.alternatives .alternative-item.wrong {
+    background-color: var(--error-bg-light);
+    border-color: var(--error-color);
+    color: var(--error-color);
+    font-weight: bold;
+    pointer-events: none;
+    transform: none;
+    font-size: 1.25rem; /* Mantém o tamanho base das alternativas */
+    box-shadow: 0 2px 10px rgba(220, 53, 69, 0.3);
+}
+
+#feedback {
+    margin-top: 45px; /* Mais espaço acima */
+    padding: 25px; /* Mais padding */
+    border-radius: var(--border-radius-md);
+    font-size: 1.6rem; /* Mais visível */
+    text-align: center;
+    font-weight: 800; /* Extra bold */
+    color: white;
+    box-shadow: 0 8px 20px var(--shadow-medium); /* Sombra mais pronunciada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px; /* Aumentar um pouco */
+}
+
+#feedback.correct {
+    background-color: var(--success-color);
+}
+
+#feedback.wrong {
+    background-color: var(--error-color);
+}
+
+.navigation-buttons {
+    margin-top: 50px; /* Mais espaço acima */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px; /* Aumentado o espaçamento entre os botões */
+}
+
+.navigation-buttons .nav-button {
+    flex: 1;
+    padding: 20px 35px; /* Mais padding */
+    font-size: 1.35rem; /* Um pouco maior */
+    border-radius: var(--border-radius-md);
+    font-weight: 700;
+}
+
+.navigation-buttons #previous-button {
+    background-color: #EBF2F7;
+    color: var(--text-secondary);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.navigation-buttons #previous-button:hover {
+    background-color: #D3E0E9;
+    color: var(--text-primary);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* FIM DAS MODIFICAÇÕES APLICADAS */
+
+/* Resumo do Quiz */
+#quiz-summary {
+    padding: 40px;
+    text-align: center;
+    background-color: var(--bg-color); /* Fundo do resumo com o azul aconchegante */
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--border-light);
+    margin-top: 40px;
+    box-shadow: 0 6px 20px var(--shadow-soft);
+}
+
+#quiz-summary h3 {
+    color: var(--accent-color);
+    margin-bottom: 30px;
+}
+
+#quiz-summary p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: var(--text-primary);
+}
+
+#quiz-summary span {
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+#quiz-summary #restart-quiz-button {
+    background-color: var(--accent-color);
+    margin-top: 35px;
+    padding: 18px 40px;
+    font-size: 1.3rem;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 30px;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    background-color: var(--card-bg); /* Footer branco para contraste */
+    box-shadow: 0 -3px 10px var(--shadow-soft);
+    border-top: 1px solid var(--border-light);
+}
+
+/* Responsividade */
+@media (max-width: 820px) {
+    main {
+        margin: 30px 20px;
+        padding: 30px;
+    }
+    header h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .question-card {
+        padding: 35px 30px; /* Ajuste para telas menores */
+    }
+    .question-text {
+        font-size: 1.5rem; /* Ajuste */
+    }
+    .alternatives .alternative-item {
+        font-size: 1.15rem; /* Ajuste */
+        padding: 20px 25px;
+    }
+    .alternatives .alternative-item.correct {
+        font-size: 1.25rem; /* Ajustado */
+    }
+    #feedback {
+        font-size: 1.3rem; /* Ajuste */
+        padding: 20px;
+    }
+    .navigation-buttons .nav-button {
+        font-size: 1.2rem; /* Ajuste */
+        padding: 18px 30px;
+    }
+    #quiz-summary {
+        padding: 30px;
+    }
+    #quiz-summary p {
+        font-size: 1.1rem;
+    }
+    #quiz-summary #restart-quiz-button {
+        font-size: 1.2rem;
+        padding: 16px 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 20px 15px;
+        padding: 25px;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
+    .question-card {
+        padding: 30px 25px; /* Ajuste para telas menores */
+    }
+    .question-text {
+        font-size: 1.35rem; /* Ajuste */
+    }
+    .alternatives .alternative-item {
+        font-size: 1.05rem; /* Ajuste */
+        padding: 18px 20px;
+        border-radius: var(--border-radius-sm);
+    }
+    .alternatives .alternative-item.correct {
+        font-size: 1.15rem; /* Ajustado */
+    }
+    #feedback {
+        font-size: 1.2rem; /* Ajuste */
+        padding: 18px;
+    }
+    .navigation-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .navigation-buttons .nav-button {
+        margin: 0;
+        padding: 16px 25px; /* Ajuste */
+        font-size: 1.1rem;
+    }
+    #quiz-summary {
+        padding: 25px;
+    }
+    #quiz-summary p {
+        font-size: 1.05rem;
+    }
+    #quiz-summary #restart-quiz-button {
+        font-size: 1.1rem;
+        padding: 14px 25px;
+    }
+}
+
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    .question-text {
+        font-size: 1.15rem; /* Ajuste */
+    }
+    .alternatives .alternative-item {
+        font-size: 0.95rem; /* Ajuste */
+        padding: 15px;
+    }
+    .alternatives .alternative-item.correct {
+        font-size: 1.05rem; /* Ajustado */
+    }
+    #feedback {
+        font-size: 1.05rem; /* Ajuste */
+        padding: 15px;
+    }
+    .navigation-buttons .nav-button {
+        font-size: 1rem; /* Ajuste */
+        padding: 14px 20px; /* Ajuste */
+    }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado ENEM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Simulado ENEM</h1>
+    </header>
+    <main>
+        <section id="question-selection">
+            <h2>Bem-vindo(a) ao Simulado ENEM!</h2>
+            <div class="user-info">
+                <div class="input-group">
+                    <label for="student-name">Nome:</label>
+                    <input type="text" id="student-name" placeholder="Digite seu nome completo" required>
+                </div>
+                <div class="input-group">
+                    <label for="student-grade">Série:</label>
+                    <select id="student-grade" required>
+                        <option value="">Selecione sua série</option>
+                        <option value="1">1º Ano Ensino Médio</option>
+                        <option value="2">2º Ano Ensino Médio</option>
+                        <option value="3">3º Ano Ensino Médio</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+            </div>
+            <h2>Escolha a Matéria e o Nível</h2>
+            <div class="controls">
+                <div class="select-group">
+                    <label for="materia-select">Matéria:</label>
+                    <select id="materia-select">
+                        <option value="">Selecione a matéria</option>
+                        <option value="Espanhol">Espanol</option>
+                        <option value="Sociologia">Sociologia</option>
+                    </select>
+                </div>
+                <div class="select-group">
+                    <label for="nivel-select">Nível:</label>
+                    <select id="nivel-select">
+                        <option value="">Todos os níveis</option>
+                        <option value="facil">Fácil</option>
+                        <option value="medio">Médio</option>
+                        <option value="dificil">Difícil</option>
+                    </select>
+                </div>
+                <button id="start-selection-button">Iniciar Simulado</button>
+            </div>
+        </section>
+
+        <section id="quiz-intro" class="hidden">
+            <h2>Boa Sorte!</h2>
+            <p>Olá, <span id="student-name-display"></span>!</p>
+            <p>Preparado(a) para começar o Simulado?</p>
+            <button id="start-quiz-button">Começar</button>
+        </section>
+
+        <section id="quiz-section" class="hidden">
+            <h2 id="current-materia"></h2>
+            <p id="question-counter">Questão 1 de X</p>
+            <div class="question-card">
+                <p class="question-text" id="question-text"></p>
+                <div class="alternatives" id="alternatives-container">
+                    </div>
+            </div>
+            <div id="feedback" class="hidden"></div>
+            <div class="navigation-buttons">
+                <button id="previous-button" class="nav-button" disabled>Anterior</button>
+                <button id="next-button" class="nav-button">Próxima</button>
+            </div>
+        </section>
+
+        <section id="quiz-summary" class="hidden">
+            <h3>Resultados do Simulado</h3>
+            <p>Aluno(a): <span id="summary-student-name"></span></p>
+            <p>Série: <span id="summary-student-grade"></span></p>
+            <p>Matéria: <span id="summary-materia"></span></p>
+            <p>Nível: <span id="summary-nivel"></span></p>
+            <p>Você respondeu <span id="total-questions-display"></span> questões.</p>
+            <p>Você acertou <span id="correct-answers-display"></span>.</p>
+            <p>Você errou <span id="wrong-answers-display"></span>.</p>
+            <p>Taxa de Acerto: <span id="accuracy-rate-display"></span></p>
+            <button id="restart-quiz-button">Reiniciar Simulado</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Simulado ENEM. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
