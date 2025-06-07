@@ -1,0 +1,786 @@
+[
+  {
+    "id": 1,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Qual a capital da Espanha?",
+    "alternativas": [
+      "Barcelona",
+      "Madri",
+      "Sevilha",
+      "Valência",
+      "Lisboa"
+    ],
+    "respostaCorreta": "Madri"
+  },
+  {
+    "id": 2,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Como se diz 'olá' em espanhol?",
+    "alternativas": [
+      "Adiós",
+      "Por favor",
+      "Hola",
+      "Gracias",
+      "De nada"
+    ],
+    "respostaCorreta": "Hola"
+  },
+  {
+    "id": 3,
+    "materia": "Espanhol",
+    "nivel": 2,
+    "pergunta": "Complete a frase: 'Mi nombre es ______'.",
+    "alternativas": [
+      "tú",
+      "él",
+      "yo",
+      "nosotros",
+      "vosotros"
+    ],
+    "respostaCorreta": "yo"
+  },
+  {
+    "id": 4,
+    "materia": "Espanhol",
+    "nivel": 3,
+    "pergunta": "Qual o significado da palavra 'coche' em espanhol?",
+    "alternativas": [
+      "Casa",
+      "Carro",
+      "Cachorro",
+      "Cadeira",
+      "Comida"
+    ],
+    "respostaCorreta": "Carro"
+  },
+  {
+    "id": 5,
+    "materia": "Espanhol",
+    "nivel": 4,
+    "pergunta": "Analise a seguinte frase e identifique o tempo verbal: 'Ella había estudiado mucho para el examen.'",
+    "alternativas": [
+      "Pretérito Imperfeito",
+      "Futuro Simples",
+      "Pretérito Perfeito Composto",
+      "Pretérito Mais-que-perfeito",
+      "Presente do Subjuntivo"
+    ],
+    "respostaCorreta": "Pretérito Mais-que-perfeito"
+  },
+  {
+    "id": 6,
+    "materia": "Espanhol",
+    "nivel": 5,
+    "pergunta": "Interprete o seguinte provérbio espanhol: 'Dime con quién andas y te diré quién eres.'",
+    "alternativas": [
+      "Significa que você deve ser seletivo com suas companhias.",
+      "Significa que é importante viajar para conhecer novas culturas.",
+      "Significa que as pessoas são o que comem.",
+      "Significa que a aparência física é fundamental.",
+      "Significa que a sorte está ao lado dos corajosos."
+    ],
+    "respostaCorreta": "Significa que você deve ser seletivo com suas companhias."
+  },
+  {
+    "id": 7,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Como se escreve 'água' em espanhol?",
+    "alternativas": [
+      "Vino",
+      "Agua",
+      "Leche",
+      "Zumo",
+      "Café"
+    ],
+    "respostaCorreta": "Agua"
+  },
+  {
+    "id": 8,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Qual o número 'cinco' em espanhol?",
+    "alternativas": [
+      "Uno",
+      "Dos",
+      "Tres",
+      "Cuatro",
+      "Cinco"
+    ],
+    "respostaCorreta": "Cinco"
+  },
+  {
+    "id": 9,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Qual a cor 'vermelho' em espanhol?",
+    "alternativas": [
+      "Azul",
+      "Verde",
+      "Amarillo",
+      "Rojo",
+      "Blanco"
+    ],
+    "respostaCorreta": "Rojo"
+  },
+  {
+    "id": 10,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Como se diz 'obrigado' em espanhol?",
+    "alternativas": [
+      "De nada",
+      "Lo siento",
+      "Por favor",
+      "Gracias",
+      "Buenos días"
+    ],
+    "respostaCorreta": "Gracias"
+  },
+  {
+    "id": 11,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Qual a capital do México?",
+    "alternativas": [
+      "Bogotá",
+      "Lima",
+      "Cidade do México",
+      "Santiago",
+      "Buenos Aires"
+    ],
+    "respostaCorreta": "Cidade do México"
+  },
+  {
+    "id": 12,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Qual pronome corresponde a 'eu' em espanhol?",
+    "alternativas": [
+      "Tú",
+      "Él",
+      "Yo",
+      "Nosotros",
+      "Ellos"
+    ],
+    "respostaCorreta": "Yo"
+  },
+  {
+    "id": 13,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Qual o significado de 'libro'?",
+    "alternativas": [
+      "Mesa",
+      "Cadeira",
+      "Livro",
+      "Caneta",
+      "Caderno"
+    ],
+    "respostaCorreta": "Livro"
+  },
+  {
+    "id": 14,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Complete: '¿Cómo te _______?'",
+    "alternativas": [
+      "llamamos",
+      "llamas",
+      "llaman",
+      "llamo",
+      "llamar"
+    ],
+    "respostaCorreta": "llamas"
+  },
+  {
+    "id": 15,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Qual o dia da semana 'domingo' em espanhol?",
+    "alternativas": [
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Domingo"
+    ],
+    "respostaCorreta": "Domingo"
+  },
+  {
+    "id": 16,
+    "materia": "Espanhol",
+    "nivel": 1,
+    "pergunta": "Traduzir: 'Buen día'",
+    "alternativas": [
+      "Boa noite",
+      "Boa tarde",
+      "Bom dia",
+      "Até logo",
+      "Até amanhã"
+    ],
+    "respostaCorreta": "Bom dia"
+  },
+  {
+    "id": 17,
+    "materia": "Espanhol",
+    "nivel": 2,
+    "pergunta": "Complete a frase com a conjugação correta do verbo 'estar': 'Ella ______ en casa.'",
+    "alternativas": [
+      "estoy",
+      "estás",
+      "está",
+      "estamos",
+      "están"
+    ],
+    "respostaCorreta": "está"
+  },
+  {
+    "id": 18,
+    "materia": "Espanhol",
+    "nivel": 2,
+    "pergunta": "Qual a preposição que indica lugar 'em cima de'?",
+    "alternativas": [
+      "Bajo",
+      "Cerca de",
+      "Sobre",
+      "Dentro de",
+      "Delante de"
+    ],
+    "respostaCorreta": "Sobre"
+  },
+  {
+    "id": 19,
+    "materia": "Espanhol",
+    "nivel": 2,
+    "pergunta": "Traduzir a palavra 'cachorro' para o espanhol (animal de estimação).",
+    "alternativas": [
+      "Gato",
+      "Pájaro",
+      "Perro",
+      "Caballo",
+      "Pez"
+    ],
+    "respostaCorreta": "Perro"
+  },
+  {
+    "id": 20,
+    "materia": "Espanhol",
+    "nivel": 2,
+    "pergunta": "Identifique o falso cognato: 'embarazada'",
+    "alternativas": [
+      "Embaraçada (com vergonha)",
+      "Embaracada (embarcação)",
+      "Grávida",
+      "Com problemas",
+      "Confusa"
+    ],
+    "respostaCorreta": "Grávida"
+  },
+  {
+    "id": 21,
+    "materia": "Espanhol",
+    "nivel": 2,
+    "pergunta": "Qual o plural de 'la ciudad'?",
+    "alternativas": [
+      "Las ciudades",
+      "Los ciudad",
+      "Las ciudad",
+      "Los ciudades",
+      "Las ciudads"
+    ],
+    "respostaCorreta": "Las ciudades"
+  },
+  {
+    "id": 22,
+    "materia": "Espanhol",
+    "nivel": 2,
+    "pergunta": "Qual o significado da palavra 'exquisito'?",
+    "alternativas": [
+      "Exótico",
+      "Estranho",
+      "Delicioso",
+      "Esquisito",
+      "Curioso"
+    ],
+    "respostaCorreta": "Delicioso"
+  },
+  {
+    "id": 23,
+    "materia": "Espanhol",
+    "nivel": 2,
+    "pergunta": "Conjugue o verbo 'ir' no presente do indicativo para 'nosotros'.",
+    "alternativas": [
+      "Voy",
+      "Vas",
+      "Va",
+      "Vamos",
+      "Vais"
+    ],
+    "respostaCorreta": "Vamos"
+  },
+  {
+    "id": 24,
+    "materia": "Espanhol",
+    "nivel": 2,
+    "pergunta": "Qual dos seguintes países NÃO tem o espanhol como língua oficial?",
+    "alternativas": [
+      "Argentina",
+      "Colômbia",
+      "Portugal",
+      "Chile",
+      "Venezuela"
+    ],
+    "respostaCorreta": "Portugal"
+  },
+  {
+    "id": 25,
+    "materia": "Espanhol",
+    "nivel": 2,
+    "pergunta": "Complete: 'Yo tengo ______ hermanos.'",
+    "alternativas": [
+      "un",
+      "una",
+      "unos",
+      "unas",
+      "dois"
+    ],
+    "respostaCorreta": "unos"
+  },
+  {
+    "id": 26,
+    "materia": "Espanhol",
+    "nivel": 2,
+    "pergunta": "Qual a forma correta do imperativo afirmativo para 'comer' (tú)?",
+    "alternativas": [
+      "Comes",
+      "Comé",
+      "Come",
+      "Coma",
+      "Comas"
+    ],
+    "respostaCorreta": "Come"
+  },
+  {
+    "id": 27,
+    "materia": "Espanhol",
+    "nivel": 3,
+    "pergunta": "Identifique o uso correto de 'muy' e 'mucho':",
+    "alternativas": [
+      "Estoy mucho cansado.",
+      "Tengo muy dinero.",
+      "Es muy bueno.",
+      "Come mucho rápido.",
+      "Ella canta muy bien."
+    ],
+    "respostaCorreta": "Ella canta muy bien."
+  },
+  {
+    "id": 28,
+    "materia": "Espanhol",
+    "nivel": 3,
+    "pergunta": "Qual o pretérito perfeito simples do verbo 'hacer' para 'ellos/ellas'?",
+    "alternativas": [
+      "Hacieron",
+      "Hicieron",
+      "Hacían",
+      "Han hecho",
+      "Hagan"
+    ],
+    "respostaCorreta": "Hicieron"
+  },
+  {
+    "id": 29,
+    "materia": "Espanhol",
+    "nivel": 3,
+    "pergunta": "Assinale a alternativa que apresenta um verbo no modo subjuntivo:",
+    "alternativas": [
+      "Corro",
+      "Estudiamos",
+      "Ojalá llueva",
+      "Comerán",
+      "Vivían"
+    ],
+    "respostaCorreta": "Ojalá llueva"
+  },
+  {
+    "id": 30,
+    "materia": "Espanhol",
+    "nivel": 3,
+    "pergunta": "Qual o significado da expressão idiomática 'estar como una cabra'?",
+    "alternativas": [
+      "Estar com fome",
+      "Estar muito ocupado",
+      "Estar louco/doido",
+      "Estar cansado",
+      "Estar doente"
+    ],
+    "respostaCorreta": "Estar louco/doido"
+  },
+  {
+    "id": 31,
+    "materia": "Espanhol",
+    "nivel": 3,
+    "pergunta": "Escolha a opção que completa corretamente a frase: 'Si yo tuviera tiempo, ______ contigo.'",
+    "alternativas": [
+      "iría",
+      "iba",
+      "iré",
+      "vaya",
+      "fui"
+    ],
+    "respostaCorreta": "iría"
+  },
+  {
+    "id": 32,
+    "materia": "Espanhol",
+    "nivel": 3,
+    "pergunta": "Qual o oposto de 'oscuro'?",
+    "alternativas": [
+      "Frío",
+      "Mojado",
+      "Claro",
+      "Pesado",
+      "Vacío"
+    ],
+    "respostaCorreta": "Claro"
+  },
+  {
+    "id": 33,
+    "materia": "Espanhol",
+    "nivel": 3,
+    "pergunta": "Identifique a frase com erro de concordância verbal:",
+    "alternativas": [
+      "Los estudiantes estudian.",
+      "Nosotros comemos.",
+      "Ella hablan español.",
+      "Yo escribo una carta.",
+      "Ellos viven aquí."
+    ],
+    "respostaCorreta": "Ella hablan español."
+  },
+  {
+    "id": 34,
+    "materia": "Espanhol",
+    "nivel": 3,
+    "pergunta": "Qual o termo correto para 'endereço de e-mail' em espanhol?",
+    "alternativas": [
+      "Dirección de carta",
+      "Dirección electrónica",
+      "Correo postal",
+      "Fax de correo",
+      "Teléfono correo"
+    ],
+    "respostaCorreta": "Dirección electrónica"
+  },
+  {
+    "id": 35,
+    "materia": "Espanhol",
+    "nivel": 3,
+    "pergunta": "Qual o diminutivo correto de 'casa'?",
+    "alternativas": [
+      "Casita",
+      "Casão",
+      "Casilla",
+      "Casinha",
+      "Casona"
+    ],
+    "respostaCorreta": "Casita"
+  },
+  {
+    "id": 36,
+    "materia": "Espanhol",
+    "nivel": 3,
+    "pergunta": "Qual a frase que utiliza corretamente o verbo 'haber' como auxiliar?",
+    "alternativas": [
+      "Hay muchos libros.",
+      "Ha leído un libro.",
+      "Haber de ir.",
+      "Había comiendo.",
+      "Hemos de dinero."
+    ],
+    "respostaCorreta": "Ha leído un libro."
+  },
+  {
+    "id": 37,
+    "materia": "Espanhol",
+    "nivel": 4,
+    "pergunta": "Analise a frase: 'Me arrepiento de lo que he dicho.' Qual o tempo verbal sublinhado?",
+    "alternativas": [
+      "Pretérito Perfeito Simples",
+      "Pretérito Imperfeito",
+      "Pretérito Perfeito Composto",
+      "Futuro Imperfeito",
+      "Presente do Subjuntivo"
+    ],
+    "respostaCorreta": "Pretérito Perfeito Composto"
+  },
+  {
+    "id": 38,
+    "materia": "Espanhol",
+    "nivel": 4,
+    "pergunta": "Qual a alternativa que usa corretamente o 'se' reflexivo?",
+    "alternativas": [
+      "Se come mucho aquí.",
+      "Ellos se van a la playa.",
+      "Se habla español.",
+      "Se lo di a ella.",
+      "Se vende casas."
+    ],
+    "respostaCorreta": "Ellos se van a la playa."
+  },
+  {
+    "id": 39,
+    "materia": "Espanhol",
+    "nivel": 4,
+    "pergunta": "Em qual situação é obrigatório o uso do artigo definido 'el' antes de um substantivo masculino singular?",
+    "alternativas": [
+      "Quando se refere a um objeto indefinido.",
+      "Após a preposição 'de'.",
+      "Antes de um pronome possessivo.",
+      "Quando se refere a um substantivo específico e conhecido.",
+      "Em todos os casos."
+    ],
+    "respostaCorreta": "Quando se refere a um substantivo específico e conhecido."
+  },
+  {
+    "id": 40,
+    "materia": "Espanhol",
+    "nivel": 4,
+    "pergunta": "Escolha a frase que contém um exemplo de 'gerúndio composto'.",
+    "alternativas": [
+      "Estoy leyendo un libro.",
+      "Hemos estado trabajando.",
+      "Habiendo comido, salí.",
+      "Vino corriendo.",
+      "Está estudiando."
+    ],
+    "respostaCorreta": "Habiendo comido, salí."
+  },
+  {
+    "id": 41,
+    "materia": "Espanhol",
+    "nivel": 4,
+    "pergunta": "Qual o significado da locução adverbial 'a regañadientes'?",
+    "alternativas": [
+      "Com entusiasmo",
+      "Com alegria",
+      "Com relutância/má vontade",
+      "Com facilidade",
+      "Com pressa"
+    ],
+    "respostaCorreta": "Com relutância/má vontade"
+  },
+  {
+    "id": 42,
+    "materia": "Espanhol",
+    "nivel": 4,
+    "pergunta": "Identifique a frase em que 'pero' e 'sino' são usados corretamente:",
+    "alternativas": [
+      "No es rubio sino moreno.",
+      "Es inteligente sino no estudia.",
+      "No come mucho pero es delgado.",
+      "Quiere ir pero no tiene dinero.",
+      "No es azul sino verde."
+    ],
+    "respostaCorreta": "Quiere ir pero no tiene dinero."
+  },
+  {
+    "id": 43,
+    "materia": "Espanhol",
+    "nivel": 4,
+    "pergunta": "Qual a forma correta do imperativo negativo para 'hablar' (ustedes)?",
+    "alternativas": [
+      "No habléis",
+      "No hablan",
+      "No hablemos",
+      "No hablen",
+      "No hable"
+    ],
+    "respostaCorreta": "No hablen"
+  },
+  {
+    "id": 44,
+    "materia": "Espanhol",
+    "nivel": 4,
+    "pergunta": "Analise a estrutura do 'futuro simples' em espanhol:",
+    "alternativas": [
+      "Verbo 'ir' + a + infinitivo",
+      "Verbo conjugado no presente + ado/ido",
+      "Infinitivo do verbo + terminações específicas",
+      "Verbo 'haber' + participio",
+      "Pretérito Imperfeito + ado/ido"
+    ],
+    "respostaCorreta": "Infinitivo do verbo + terminações específicas"
+  },
+  {
+    "id": 45,
+    "materia": "Espanhol",
+    "nivel": 4,
+    "pergunta": "Qual a função do 'a' preposicional em 'Veo a Juan'?",
+    "alternativas": [
+      "Indicar lugar",
+      "Indicar tempo",
+      "Introduzir objeto direto de pessoa",
+      "Indicar instrumento",
+      "Conectar ideias"
+    ],
+    "respostaCorreta": "Introduzir objeto direto de pessoa"
+  },
+  {
+    "id": 46,
+    "materia": "Espanhol",
+    "nivel": 4,
+    "pergunta": "Identifique a frase que contém um pronome relativo que se refere a uma coisa:",
+    "alternativas": [
+      "El chico quien vino es mi amigo.",
+      "La mujer que me saludó.",
+      "El libro que me prestaste.",
+      "Aquella persona a quien admiro.",
+      "Ellos, quienes estudiaron, aprobaron."
+    ],
+    "respostaCorreta": "El libro que me prestaste."
+  },
+  {
+    "id": 47,
+    "materia": "Espanhol",
+    "nivel": 5,
+    "pergunta": "Em qual das frases abaixo o uso do modo subjuntivo é *obrigatório*?",
+    "alternativas": [
+      "Espero que venga pronto.",
+      "Creo que va a llover.",
+      "Sé que eres inteligente.",
+      "Pienso que es la verdad.",
+      "Afirmo que está bien."
+    ],
+    "respostaCorreta": "Espero que venga pronto."
+  },
+  {
+    "id": 48,
+    "materia": "Espanhol",
+    "nivel": 5,
+    "pergunta": "Diferencie o uso de 'por' e 'para' na frase: 'El regalo es ______ ti, y lo compré ______ diez euros.'",
+    "alternativas": [
+      "por / para",
+      "para / por",
+      "por / por",
+      "para / para",
+      "a / de"
+    ],
+    "respostaCorreta": "para / por"
+  },
+  {
+    "id": 49,
+    "materia": "Espanhol",
+    "nivel": 5,
+    "pergunta": "Qual das seguintes frases demonstra uma incorreção gramatical no uso dos verbos 'ser' e 'estar'?",
+    "alternativas": [
+      "Mi hermana es alta.",
+      "Estamos cansados.",
+      "La puerta está abierta.",
+      "Soy de Brasil.",
+      "El libro es en la mesa."
+    ],
+    "respostaCorreta": "El libro es en la mesa."
+  },
+  {
+    "id": 50,
+    "materia": "Espanhol",
+    "nivel": 5,
+    "pergunta": "Analise a construção sintática e semântica do 'condicional composto' em espanhol. Assinale a opção correta.",
+    "alternativas": [
+      "Expressa uma ação futura provável.",
+      "Indica uma ação que poderia ter ocorrido no passado se uma condição tivesse sido cumprida.",
+      "Refere-se a um desejo ou dúvida no presente.",
+      "Descreve um hábito no passado.",
+      "Expressa uma ordem ou conselho."
+    ],
+    "respostaCorreta": "Indica uma ação que poderia ter ocorrido no passado se uma condição tivesse sido cumprida."
+  },
+  {
+    "id": 51,
+    "materia": "Espanhol",
+    "nivel": 5,
+    "pergunta": "Qual a diferença de sentido entre 'Quedamos en casa' e 'Nos quedamos en casa'?",
+    "alternativas": [
+      "Não há diferença de sentido, são sinônimos.",
+      "A primeira significa 'nós nos encontramos em casa', a segunda 'nós permanecemos em casa'.",
+      "A primeira significa 'nós permanecemos em casa', a segunda 'nós nos encontramos em casa'.",
+      "A primeira significa 'nós moramos em casa', a segunda 'nós saímos de casa'.",
+      "A primeira é formal, a segunda é informal."
+    ],
+    "respostaCorreta": "A primeira significa 'nós nos encontramos em casa', a segunda 'nós permanecemos em casa'."
+  },
+  {
+    "id": 52,
+    "materia": "Espanhol",
+    "nivel": 5,
+    "pergunta": "Qual o uso mais adequado para 'ni siquiera'?",
+    "alternativas": [
+      "Para reforçar uma afirmação.",
+      "Para expressar uma dúvida.",
+      "Para indicar que algo não aconteceu de forma alguma, nem mesmo em um grau mínimo.",
+      "Para introduzir uma condição.",
+      "Para expressar uma escolha."
+    ],
+    "respostaCorreta": "Para indicar que algo não aconteceu de forma alguma, nem mesmo em um grau mínimo."
+  },
+  {
+    "id": 53,
+    "materia": "Espanhol",
+    "nivel": 5,
+    "pergunta": "Identifique o tipo de oração subordinada na frase: 'Aunque estudió mucho, no aprobó el examen.'",
+    "alternativas": [
+      "Subordinada substantiva",
+      "Subordinada adjetiva",
+      "Subordinada adverbial temporal",
+      "Subordinada adverbial concessiva",
+      "Subordinada adverbial causal"
+    ],
+    "respostaCorreta": "Subordinada adverbial concessiva"
+  },
+  {
+    "id": 54,
+    "materia": "Espanhol",
+    "nivel": 5,
+    "pergunta": "Qual das seguintes construções é um exemplo de 'perífrase verbal de obrigação'?",
+    "alternativas": [
+      "Deber de estudiar.",
+      "Acabar de llegar.",
+      "Volver a hacer.",
+      "Ir a cantar.",
+      "Empezar a leer."
+    ],
+    "respostaCorreta": "Deber de estudiar."
+  },
+  {
+    "id": 55,
+    "materia": "Espanhol",
+    "nivel": 5,
+    "pergunta": "Analise a frase 'Fue entonces cuando la vi'. O 'cuando' nesta frase introduz que tipo de oração?",
+    "alternativas": [
+      "Subordinada adjetiva",
+      "Subordinada adverbial temporal",
+      "Subordinada adverbial de modo",
+      "Subordinada substantiva",
+      "É um advérbio interrogativo"
+    ],
+    "respostaCorreta": "Subordinada adverbial temporal"
+  },
+  {
+    "id": 56,
+    "materia": "Espanhol",
+    "nivel": 5,
+    "pergunta": "Explique o uso de 'ya' com valor de tempo em espanhol. Qual a opção que expressa corretamente 'já não'?",
+    "alternativas": [
+      "Ya sí",
+      "Ya no",
+      "Aún no",
+      "Todavía",
+      "Ya mismo"
+    ],
+    "respostaCorreta": "Ya no"
+  }
+]
